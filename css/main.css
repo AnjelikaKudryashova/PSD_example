@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif; 
+	color: #fff;
+    position: relative;
+}
+#qbootstrap-header {
+    z-index: 99;
+}
+
+.qbootstrap-cover {
+    height: 800px;
+    width: 100%;
+    z-index: 61;
+    background-size: cover;
+}
+
+.text-center {
+    text-align: center;
+}
+.logo {
+	width: 270px;
+	height: 270px;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top: 70px;
+	display: inline-block;
+	
+}
+.h_1 {
+    margin-top: 50px;
+}
+.h_1 #be_sure {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 40pt;
+    margin-bottom: -40px;
+
+}
+.h_1 #in_the {
+    text-transform: uppercase;
+    font-size: 40pt;
+    word-spacing: 8px;
+}
+.Rounded_Rectangle_15 {
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.28);
+    width: 334px;
+    height: 334px;
+    z-index: 70;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.zip_code {
+    margin: 10px;
+    padding: 10px 15px 10px;
+    width: 270px;
+}
+.texi_in_form {
+    white-space: pre-line;
+    font-size: 15px;
+    color: rgb(147, 142, 142);
+    margin-top: -8px;
+}
+.buttominform {
+    border-radius: 2px;
+    background-color: rgb(34, 125, 211);
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    border: 0;
+    font-size: 18pt;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 8px;
+}
+.buttominform:hover {
+    border-radius: 2px;
+    background-color: white;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    border: 0;
+    font-size: 18pt;
+    text-transform: uppercase;
+    color: rgb(147, 142, 142);
+    font-family: 'Open Sans', sans-serif;
+}
+.block2 {
+    display: block;
+    background-color: white;
+    padding-top: 170px;
+    padding-bottom: 71px;
+    color: black;
+}
+.documents {
+    width: 400px;
+    height: 130px;
+}
+.margin_left {
+    margin-left: -60px;
+    margin-right: 70px;
+}
