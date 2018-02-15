@@ -44,36 +44,70 @@
 		<div class="container">
 	      <div class="row">
    	    	<div class="col-lg-2">
-                <img src="img/Forme175.png">
+                <a href="#"><img src="img/Forme175.png"></a>
             </div>
             <div class="col-lg-4">
             	<div class="margin_left">
-                  <h1>Documents</h1>
-                  <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+                  <h1 class="h_2">Documents</h1>
+                  <p class="fotos_documents">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
                 </div>
             </div>
    	    	<div class="col-lg-2">
-   	    		<img src="img/camera.png">
+   	    		<a href="#"><img src="img/camera.png"></a>
    	    	</div>
    	    	<div class="col-lg-4">
    	    		<div class="margin_left">
-   	    		 <h1>Photos</h1>
-   	    		 <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+   	    		 <h1 class="h_2">Photos</h1>
+   	    		 <p class="fotos_documents">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
    	    		</div>
    	    	</div>
    	      </div>
 		</div>
+		<div container-fluid>
+			<div class="green_block">
+				<img class="img1" src="img/1shadow1.png" alt="">
+				<h1 class="h_3">This is a Heading</h1>
+				<p class="p_1_1">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p><br><br>
+				<p class="p_1_2">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+			  <div class="bg_green" style="background-image: url(img/bg.png)";>
+				   <img class="img2" src="img/2.png" alt="">
+			            <div class="h_4">
+							<h1>This is a Heading</h1>
+							<p class="p_1_3">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+						</div>
+						<div>
+							<form>
+                               <p><input class="buttomdownload" type="button" value="Download"></p>
+                            </form>
+						</div>
+			   </div>
+			</div>
+		</div>
 	 </section>
-	</div>
-	
-	<section>
-		
-	</section>
-	<section>
-		
-	</section>
 	<footer>
-		
+		<div class="container-fluid">
+		  <div class="row">
+			<div id="map">
+		  </div>
+		  <div class="footer">
+		  </div>
+		</div>
 	</footer>
+	<script>
+      function initMap() {
+        var uluru = {lat: 	56.326887, lng: 44.005986};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDTD_EeyYt09kl00X5xWlWinectu_Imdo&callback=initMap">
+    </script>
 </body>
 </html>
