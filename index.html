@@ -15,20 +15,20 @@
 			<div class="container" >
 				<div class="row justify-content-center">
 					<div class="col-auto mt-5 pt-4">
-						<a href="#"><img src="img/logo.png" alt="Логотип"></a>
+						<a href="#"><img id="logo" src="img/logo.png" alt="Логотип"></a>
 					</div>
 					<div class="w-100">
 						<div class="row justify-content-center">
 							<div class="col-xs-auto">
-								<div class="h_1">
-									<h1 id="be_sure">Be sure you put your feet</h1> 
-									<h2 id="in_the">in the right place</h2>
+								<div class="h_1 d-none d-lg-block">
+									<h1 class="d-none d-lg-block" id="be_sure">Be sure you put your feet</h1> 
+									<h2 class="d-none d-lg-block" id="in_the">in the right place</h2>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="row justify-content-center">
-						<div class="col-auto">
+						<div class="col">
 							<div class="Rounded_Rectangle_15">
 								<form class="zip_code">
 									<input class="form-control mr-auto ml-auto mt-3 mb-2 p-2 w-75" type="text" placeholder="Enter your zip code"> 
@@ -53,15 +53,15 @@
 		  	<div class="container">
 		  		<div class="row justify-content-around">
 		  			<div class="col-auto">
-		  				<a href="#"><img src="img/Forme175.png" class="rounded float-left mr-4" alt="document"></a>
-		  				<div class="margin_left">
+		  				<a href="#"><img src="img/Forme175.png" class="d-flex float-left rounded mr-4" alt="document"></a>
+		  				<div class="margin_left d-block">
 		  					<h2 class="h_2">Documents</h2>
 		  					<p class="fotos_documents">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
 		  				</div>
 		  			</div>
 		  			<div class="col-auto">
-		  				<a href="#"><img src="img/camera.png" class="rounded float-left mr-4" alt="camera"></a>
-		  				<div class="margin_left">
+		  				<a href="#"><img src="img/camera.png" class="d-flex rounded float-left mr-4" alt="camera"></a>
+		  				<div class="margin_left d-block">
 		  					<h2 class="h_2">Photos</h2>
 		  					<p class="fotos_documents">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
 		  				</div>
@@ -69,36 +69,42 @@
 		  		</div>
 		  	</div>
 		  	<div class="green_block">
-		  		<div class="container">
+		  		<div class="container mb-5 pb-5">
 		  			<div class="row justify-content-center">
-		  				<div class="for_position col-auto mt-5 pt-5">
+		  				<div class="position-relative col-auto mt-5 pt-5">
 		  					<img class="img1" src="img/1shadow1.png" alt="">
 		  				</div>
 		  				
-		  				 <div class="col-auto">
-		  				 	<div class="sub_block">
-			  					<h2 class="h_3 text-center">This is a Heading</h2>
-			  					<p class="p_1_1">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p><br>
-			  					<p class="p_1_2">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
-			  				</div>
-		  				 </div>
+		  				<div class="col-8">
+		  					<div class="sub_block">
+		  						<h2 class="h_3 text-center">This is a Heading</h2>
+		  						<p class="p_1_1 d-flex text-justify">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p><br>
+		  						<p class="p_1_2 d-flex text-justify">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+		  					</div>
 		  				</div>
 		  			</div>
-		  			<div class="bg_green" style="background-image: url(img/bg.png)">
-		  				<img class="img2" src="img/2.png" alt="">
-		  				<div class="h_4">
-		  					<h2>This is a Heading</h2>
-		  					<p class="p_1_3">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
-		  				</div>
-		  				<div>
-		  					<form>
-		  						<p><input class="buttomdownload" type="button" value="Download"></p>
-		  					</form>
+		  		</div>
+		  		<div class="bg_green" style="background-image: url(img/bg.png)">
+		  			<div class="container mt-5 pt-5">
+		  				<div class="row">
+		  					<div class="col-12">
+		  						<img class="d-none d-lg-inline-flex img2" src="img/2.png" alt="">
+		  						<div class="d-inline-flex">
+		  							<div class="h_4">
+		  								<h2>This is a Heading</h2>
+		  								<p class=" p_1_3">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+		  								<form >
+		  									<p><input class="buttomdownload" type="button" value="Download"></p>
+		  								</form>
+		  							</div>
+		  						</div>
+		  					</div>
 		  				</div>
 		  			</div>
 		  		</div>
 		  	</div>
-		  </section>
+		  </div>
+		</section>
 			<footer>
 				<div class="container-fluid">
 					<div class="row">
